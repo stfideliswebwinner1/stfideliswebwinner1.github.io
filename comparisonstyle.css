@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(8, 8, 41);
+}
+
+#navbar {
+    width: 100%;
+    height: 65px;
+    background-color: rgb(56, 56, 90);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logo {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logo a {
+    text-decoration: none;
+    color: rgb(219, 210, 210);
+    font-size: 40px;
+}
+
+#logo a:hover{
+    color: rgb(102, 191, 250);
+    transition: all 0.3s ease;
+    text-shadow: 0 0 6px;
+}
+
+input[type=text]{
+    width: 650px;
+    height: 40px;
+    background-color: rgb(22, 22, 48);
+    border-radius: 8px;
+    transform:scale(1.05);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    outline: none;
+    border:none;
+    color: rgb(99, 190, 250);
+}
+
+input[type=text]::placeholder{
+    color: rgb(52, 179, 253);
+}
+
+input[type=text]:focus{
+    border-color: rgb(95, 181, 252);
+    transition: all 0.3s ease;
+    box-shadow: 0 0 8px;
+}
+
+.link{
+    color: rgb(221, 215, 215);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+#container{
+    width: 98%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#cards{
+    width: 1500px;
+    height: 650px;
+    background-color: rgb(102, 95, 131);
+    border-radius: 8px;
+    color: rgb(207, 205, 205);
+    font-size: 30px;
+    margin-top: 250px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(206, 197, 197);
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cards p{
+    margin-bottom: 40px;
+}
+
+#cards:hover{
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    color: rgb(89, 172, 250);
+    box-shadow: 0 12px 18px;
+}
+
+table th, td{
+    color: rgb(228, 219, 219);
+    border: 1px solid rgb(99, 243, 248);
+}
+
+table{
+    width: 1000px;
+    height: 350px;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+table th{
+    background-color: rgb(58, 175, 253);
+    font-size: 25px;
+}
+
+table td:hover{
+    background-color: rgb(115, 253, 235);
+    color: black;
+}
+table td{
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.link:hover{
+    color: rgb(103, 192, 252);
+    transition: all 0.3s ease;
+}
+
+.link:focus{
+    color: rgb(69, 243, 176);
+}

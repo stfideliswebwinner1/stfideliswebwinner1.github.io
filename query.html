@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query</title>
+    <link rel="stylesheet" href="query.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="logo"><a href="index.html">PathWise</a></div>
+        <input type="text" name="search" placeholder="Search PathWise">
+
+        <a href="careerpath.html" class="link">Career Path</a>
+        <a href="comparison.html" class="link">Comparison</a>
+        <a href="query.html" class="link">Query</a>
+        <a href="about.html" class="link">About Us</a>
+    </div>
+
+    <div id="container">
+
+        <div id="cards">
+            <p>Query Form</p>
+            <form>
+
+                <label>Name</label>
+
+                <input type="text" placeholder="Type Your Name" id="name">
+                <br>
+
+                <label>Your Interests</label>
+                <select>Interests
+                    <option>Select</option>
+                    <option>Maths</option>
+                    <option>Science</option>
+                    <option>Arts</option>
+                </select><br>
+
+                <label>Your Goals</label>
+                <select>Goals
+                    <option>Select</option>
+                    <option>Help People</option>
+                    <option>Earn Money</option>
+                    <option>Business tycon</option>
+                </select><br>
+
+                <label>Type of work</label>
+                <select>Work Type
+                    <option>Select</option>
+                    <option>Office Work</option>
+                    <option>Field Work</option>
+                </select><br>
+
+                <input type="submit" value="Click to Submit Form" onclick="showalert()">
+
+                <script>
+        function showalert(){
+            alert("Form Submitted")
+        }
+    </script>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

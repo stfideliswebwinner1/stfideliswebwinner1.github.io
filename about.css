@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(8, 8, 41);
+}
+
+#navbar {
+    width: 100%;
+    height: 65px;
+    background-color: rgb(56, 56, 90);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logo {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logo a {
+    text-decoration: none;
+    color: rgb(219, 210, 210);
+    font-size: 40px;
+}
+
+#logo a:hover{
+    color: rgb(102, 191, 250);
+    transition: all 0.3s ease;
+    text-shadow: 0 0 6px;
+}
+
+input[type=text]{
+    width: 650px;
+    height: 40px;
+    background-color: rgb(22, 22, 48);
+    border-radius: 8px;
+    transform:scale(1.05);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    outline: none;
+    border:none;
+    color: rgb(99, 190, 250);
+}
+
+input[type=text]::placeholder{
+    color: rgb(52, 179, 253);
+}
+
+input[type=text]:focus{
+    border-color: rgb(95, 181, 252);
+    transition: all 0.3s ease;
+    box-shadow: 0 0 8px;
+}
+
+.link{
+    color: rgb(221, 215, 215);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#hero{
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 8px;
+    width: 95%;
+    height: 550px;
+    background: linear-gradient(to top, rgb(15, 6, 32), rgb(76, 188, 253));
+    box-shadow: 0 0 6px 8px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(226, 221, 221);
+}
+
+#hero p{
+    color: rgb(191, 193, 194);
+    font-size: 22px;
+}
+
+#button{
+    margin-top: 30px;
+    width: 550px;
+    height: 50px;
+    background-color: rgb(59, 165, 252);
+    color: white;
+    border-radius: 9px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+#button:hover{
+    background-color: rgb(71, 101, 184);
+    transform: translateY(-5px) ;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+}
+
+#container{
+    width: 98%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cards{
+    height: 600px;
+    width: 1000px;
+    background-color: rgb(102, 95, 131);
+    border-radius: 8px;
+    margin-top: 300px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(136, 241, 66);
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.6);
+}
+
+.cards p{
+    margin-top: 60px;
+    color: rgb(199, 192, 192);
+    font-weight: normal;
+    font-size:25px;
+
+}
+
+.cards:hover{
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    color: rgb(67, 198, 250);
+    box-shadow: 0 12px 18px;
+}
+
+hr{
+    margin-top: 50px;
+    width: 95%;
+    color: rgb(206, 198, 198);
+}
+
+.link:hover{
+    color: rgb(103, 192, 252);
+    transition: all 0.3s ease;
+}
+
+.link:focus{
+    color: rgb(69, 243, 176);
+}
